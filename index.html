@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fa9cd9;
+        }
+        header {
+            background-color: hsl(339, 100%, 54.9%);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+        .profile-picture {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .download-button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/me.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>SWARAG M</h1>
+            <p>STUDENT</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#objective">OBJECTIVE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#resume">RESUME</a></li>
+        </ul>
+    </nav>
+    <section id="objective">
+        <div class="section-content">
+            <h2>OBJECTIVE</h2>
+            <p>To secure a position in a reputable organization where I can apply my skills and knowledge to contribute to the company's growth.</p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+            <h2>EDUCATION</h2>
+            <p>BCS COMPUTER SCIENCE</p>
+            <p>Sree Narayana Guru College, Coimbatore, Tamil Nadu.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>MS OFFICE</li>
+                <li>JAVA</li>
+                <li>PYTHON</li>
+                <li>C++</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Diploma in Cloud Computing / Cyber Security</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="section-content">
+            <center>
+                <h2>Resume</h2>
+                <a href="resume.pdf" target="_blank" class="download-button">Download CV</a>
+            </center>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 SWARAG M</p>
+    </footer>
+</body>
+</html>
